@@ -3,11 +3,12 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
 import './ArtistGuide.scss';
+import P1 from './Images/ArtistGuidePages.png'
 
 gsap.registerPlugin(ScrollTrigger);
 
 const pageData = [
-  {front: "https://github.com/Allyssaur/PortfolioNodeFix/blob/main/GDPortfolio/src/assets/ArtistGuidePages.png?raw=true", back: "https://github.com/Allyssaur/PortfolioNodeFix/blob/main/GDPortfolio/src/assets/ArtistGuidePages2.png?raw=true", isCover: true,},
+  {front: {P1}, back: "https://github.com/Allyssaur/PortfolioNodeFix/blob/main/GDPortfolio/src/assets/ArtistGuidePages2.png?raw=true", isCover: true,},
   { front: "https://github.com/Allyssaur/PortfolioNodeFix/blob/main/GDPortfolio/src/assets/ArtistGuidePages3.png?raw=true", back: "https://github.com/Allyssaur/PortfolioNodeFix/blob/main/GDPortfolio/src/assets/ArtistGuidePages4.png?raw=true" },
   { front: "https://github.com/Allyssaur/PortfolioNodeFix/blob/main/GDPortfolio/src/assets/ArtistGuidePages5.png?raw=true", back: "https://github.com/Allyssaur/PortfolioNodeFix/blob/main/GDPortfolio/src/assets/ArtistGuidePages6.png?raw=true" },
   { front: "https://github.com/Allyssaur/PortfolioNodeFix/blob/main/GDPortfolio/src/assets/ArtistGuidePages7.png?raw=true", back: "https://github.com/Allyssaur/PortfolioNodeFix/blob/main/GDPortfolio/src/assets/ArtistGuidePages8.png?raw=true" },
