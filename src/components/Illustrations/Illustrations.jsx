@@ -15,7 +15,7 @@ export default function Illustrations() {
     const navigate = useNavigate();
     const handleHOMEClick = () => {
     console.log('Button clicked, navigating now...'); 
-    navigate('/'); 
+    navigate('/allycatportfolio'); 
     }
 
   useEffect(() => {
