@@ -1,6 +1,6 @@
 import Guide from '../PV/ArtistGuide.jsx'
 // import Modal from '../Modal.jsx'
-import { useRef,useState } from "react";
+import { useRef,useState, useEffect } from "react";
 import gsap from "gsap";
 import { ScrollTrigger, Flip } from "gsap/all";
 import { useGSAP } from "@gsap/react";
@@ -19,8 +19,10 @@ gsap.registerPlugin(ScrollTrigger, Flip);
 
 export default function ProductionVisuals() {
 
+useEffect(() => {
   ScrollTrigger.clearScrollMemory("manual");
-window.scrollTo(0, 0);
+  window.scrollTo(0, 0);
+}, []);
 
   const PVcontainerRef = useRef(null);
   const wrapperRef = useRef(null);
@@ -70,8 +72,9 @@ window.scrollTo(0, 0);
           start: "center center",
           end: "+=100%",
           scrub: true,
-          pin: wrapperRef.current
+          pin: wrapperRef.current,
           // markers: true
+
         }
       }).add(flip);
 
