@@ -5,7 +5,7 @@ export default function Bio() {
 const navigate = useNavigate();
     const handleHOMEClick = () => {
     console.log('Button clicked, navigating now...'); 
-    navigate('/'); 
+    navigate('/allycatportfolio'); 
     }
 
 return(

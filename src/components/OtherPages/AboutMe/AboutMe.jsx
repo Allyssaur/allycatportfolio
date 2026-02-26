@@ -12,7 +12,7 @@ export default function AboutMe() {
     const navigate = useNavigate();
     const handleHOMEClick = () => {
     console.log('Button clicked, navigating now...'); 
-    navigate('/'); 
+    navigate('/allycatportfolio'); 
     }
 
     const handleTLClick = () => {

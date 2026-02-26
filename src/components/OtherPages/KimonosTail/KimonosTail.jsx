@@ -325,7 +325,7 @@ export default function Wedding() {
   const navigate = useNavigate();
     const handleHOMEClick = () => {
     console.log('Button clicked, navigating now...'); 
-    navigate('/'); 
+    navigate('/allycatportfolio'); 
     }
 
     const handleInviteClick = () => {
