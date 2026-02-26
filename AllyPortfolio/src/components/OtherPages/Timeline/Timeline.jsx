@@ -115,7 +115,7 @@ const Timeline = () => {
                 extra: "(ONGONIG)",
                 type: "timeline__exp",
                 roles: ["Self-Employed"],
-                about: ["Ally Cat Studios began as a passion-driven creative venture.  As a multidisciplinary artist, I explored several directions before refining its focus.  Over time, it slowly evolved into the creative alias I now use for my work in creative direction.",
+                about: ["Ally Cat Studios began as a passion-driven creative venture.  As a multidisciplinary artist, I explored several directions before refining its focus.  Over time, it slowly evolved into the alias I now use for my work in creative direction.",
                   "Through Ally Cat Studios, I offer services including:",
                   "-Full project development from concept to completion.",
                   "-Creative consulting",
