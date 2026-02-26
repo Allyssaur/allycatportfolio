@@ -16,7 +16,7 @@ const Timeline = () => {
  const navigate = useNavigate();
     const handleHOMEClick = () => {
     console.log('Button clicked, navigating now...'); 
-    navigate('/allycatstudios'); 
+    navigate('/allycatportfolio'); 
     }
 
   useGSAP(
