@@ -50,7 +50,7 @@ const NotFoundPage = () => {
       <h1>Whoopsie, Poopsie! updated!</h1>
       <div>Page Not Found! :C</div>
 
-      <Link to="/">
+      <Link to="/allycatportfolio">
         <button>Go Back</button>
       </Link>
     </div>
