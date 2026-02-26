@@ -1,0 +1,219 @@
+// .paper {
+//   //min-width: 800px;
+//   box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.5);
+//   position: absolute;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+// }
+// .paper.invite {
+//   width: 320px;
+//   height: 450px;
+//   transform: rotateZ(5deg);
+//   left: 50%;
+//   top: 25%;
+//   background:url('./Images/invite2.png');
+//   background-size: auto 450px;
+//   transition: 1s;
+// }
+// .paper.rsvp {
+//   width: 180px;
+//   height: 250px;
+//   transform: rotateZ(5deg);
+//   left: 45%;
+//   top:50%;
+//   left: 42%;
+//   background:url('./Images/invite4.png');
+//   background-size: auto 250px;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   transition: 1s;
+// }
+// .paper.details {
+//   width: 320px;
+//   height: 450px;
+//   left:40vw;
+//   top: 10vh;
+//   transform: rotateZ(-5deg);
+//   background:url('./Images/invite3.png');
+//   background-size: auto 450px;
+//   transition: 1s;
+// }
+// .card{
+//   position:absolute;
+//   width:315px;
+//   height:450px;
+//   left:40vw;
+//   top:50vh;
+//   z-index: 2;
+//   transform:translate(-50%,-50%);
+//   background-image: linear-gradient(#471d47, #471d47);
+// transform-style:preserve-3d;
+//   perspective:2000px;
+//    /*first box-shadow value is for thr car interio and second for the outer box-shadow i.e we can have multiple box-shadows when separated by a comma*/
+//   box-shadow:inset 200px 0 50px rgba(0,0,0,.5),0 20px 100px rgba(0,0,0,.5);
+//   transition:0.5s;
+// }
+// .card:hover{
+//   transform:translate(-50%,-50%) rotate(-10deg);
+//   perspective:2000px;
+//   z-index:1;
+//   /*on hover remove the box shadow*/
+//   box-shadow:inset 20px 0 50px rgba(0,0,0,.5),0 20px 100px rgba(0,0,0,.5);
+// }
+// //positions the top level
+// /*for the width*/
+// .card:before{
+//   content:'';
+//   position:absolute;
+//   top:-5px;
+//   left:0;
+//   width:100%;
+//   height:5px;
+//   transform-origin:left;
+//   transform:skewX(-45deg);
+// }
+// //positions the right side
+// /*forthe height*/
+// .card:after{
+//   content:'';
+//   position:absolute;
+//   top:0;
+//   right:-5vp;
+//   width:5px;
+//   height:100%;
+//   transform-origin:left;
+//   transform:skewy(-45deg);
+  
+// }
+// .card .imgBox{
+//   width:100%;
+//   height:100%;
+//   position:relative;
+//   transform-origin:left;
+//   background: url('./Images/invite1.png');
+//   background-size: auto 450px;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   transition:1.5s;
+// }
+// .card:hover .imgBox{
+//   transform:rotatey(-135deg);
+//   /* remove 'bg' if you don't like the way the cover disappears when hovering, but will appear backwards when open */
+//   /*background:#471d47;*/
+// }
+// @keyframes animateone{
+//   0%{
+//     background-position:0px 0px;
+//   }
+//    100%{
+//     background-position:200px 298px;
+//   }
+  
+// }
+// .paper.envinside {
+//   width:250px;
+//   height:300px;
+//   left: 10vw;
+//   top: 5vh;
+//   background-image: url('./Images/invite6.png');
+//   background-size: auto 300px;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   transform: rotateZ(10deg);
+//   z-index: 1;
+//   box-shadow: none;
+//   transition: 1s;
+// }
+// .paper.envoutside {
+//    width:315px;
+//   height:375px;
+//   left: 5vw;
+//   top: 27vh;
+//   background-image: url('./Images/invite5.png');
+//   background-size: 300px auto;
+//   background-size: cover;
+//   transform: rotateZ(-10deg);
+//   z-index: 2;
+//   box-shadow:none;
+//   transition: 1s;
+// }
+
+// .list {
+//         display: flex;
+//         gap: 16px;
+//       }
+
+//       .item {
+//         width: 150px;
+//         height: 150px;
+//         border-radius: 8px;
+//         overflow: hidden;
+//         cursor: grab;
+//         border: 2px solid #ddd;
+//         background: #f9f9f9;
+//       }
+
+//       .item img {
+//         width: 100%;
+//         height: 100%;
+//         object-fit: cover;
+//         pointer-events: none;
+//       }
+
+// @media screen and (max-width: 412px) {
+
+//   .paper.envoutside {
+//     top: -11%;
+//     left: 30%;
+//   } 
+  
+//   .paperenvinside {
+//     top: -11%;
+//     left: 40%;
+//   }
+//   .paper.rsvp {
+//     top: 72%;
+//   }
+//   .paper.card {
+//     top: 65%;
+//     left: 40%;
+//   }
+//   .paper.details {
+//     left: 40%;
+//     top: 20%;
+//   }
+//   .paper.invite{
+//     top: 40%;
+//     left: 30%;
+//   }
+// }
+
+
+// @media screen and (min-width: 2000px) {
+//   .paper.invite, .paper.details {
+//     width: 640px;
+//     height: 900px;
+//     background-size: auto 900px;
+//   }
+//   .paper.rsvp {
+//     width: 360px;
+//     height: 500px;
+//     background-image: auto 500px; 
+//   }
+//   .card {
+//     width: 630px;
+//     height: 900px;
+//     background-size: auto 900px;
+//     background-size: cover;
+//   }
+//   .paper.envinside{
+//     width: 600px;
+//     height: 700px;
+//     background-size: auto 600px;
+//   }
+//   .paper.envoutside{
+//     width: 625px;
+//     height: 750px;
+//     background-image: auto 750px;
+//   }
+// }

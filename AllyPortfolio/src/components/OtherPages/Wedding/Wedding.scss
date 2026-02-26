@@ -1,0 +1,157 @@
+
+
+h2 {
+    font-size: 5vh;
+    color: rgb(216, 125, 73);
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+/* Container for flexboxes */
+.row {
+  background-color: rgb(196, 196, 196);
+  display: -webkit-flex;
+  display: flex;
+  padding: 10vh 0 10vh 0;
+}
+
+
+
+.columnr p, .columnl p{
+    font-size: 2vh;
+    margin-left: 10vw;
+    padding: 3vh 10vw 1vh 0;
+    font-family: "Jost", sans-serif;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.columnr p, .columnr h2, .columnr h4 {
+    text-align: right;
+}
+
+.columnl p {
+    text-align: left
+}
+
+.fixedPVbutton {
+  background-color:rgb(216, 125, 73);
+  border-radius: 20px;
+  padding: 20px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 2vh;
+  font-weight: 800;
+}
+
+.contactp {
+  font-weight: 200;
+  font-size: 1.8vh;
+}
+.PVButton {
+  background-color:rgb(216, 125, 73);
+  border-radius: 20px;
+  padding: 10px;
+  position: absolute;
+  right: 45%;
+  font-weight: 600;
+}
+
+.imgcontainerr, .imgcontainerl{
+  width: 25vw;
+  height: 70vh;
+  position: relative;
+}
+
+.imgcontainerr {
+    float: right;
+      margin-left: 5%;
+  margin-right: 15%;
+}
+
+.imgcontainerl {
+    float: left;
+    margin-left: none;
+      margin-left: 15%;
+  margin-right: 5%;
+}
+
+.imgheader {
+    width: 100%;
+    font-size: 9vh;
+    position: relative;
+}
+
+
+.inv1, .inv2, .inv3, .inv4 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.inv1 {
+  background-image: url("./Images/Portfolio-01.png");
+}
+
+.inv2 {
+  background-image: url("./Images/PortfolioItem2.jpg");
+}
+
+.inv3 {
+  background-image: url("./Images/LargeBook.jpg");
+}
+.inv4 {
+  background-image: url("./Images/SMBook.jpg");
+}
+
+.footer {
+  background-color:rgb(216, 125, 73);
+  height: 10vh;
+  text-align: center;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .row {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    padding-bottom: 25%;
+  }
+
+  h2 {
+    font-size: 4.5vh;
+    padding: 0 10% 0 10%;
+    text-align: center;
+  }
+
+  h4 {
+    position: static;
+    font-weight: 500;
+    font-size: 2.5vh;
+    text-align: center;
+    font-weight: 100;
+  }
+
+  .columnr p, .columnl p {
+      text-align: justify;
+    padding: 5% 15% 5% 5%;
+  }
+
+  .columnr h2, .columnr h4 {
+    text-align: center;
+  }
+
+  .imgcontainerr, .imgcontainerl {
+    width: 100%;
+    margin: 0 0 20% 0;
+  }
+
+  .PVButton {
+    padding: 5%;
+    font-size: 1.5vh;
+    right: 17%;
+    font-weight: 800;
+  }
+}
