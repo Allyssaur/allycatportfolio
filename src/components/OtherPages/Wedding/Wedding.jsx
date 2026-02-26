@@ -66,7 +66,7 @@ export default function Wedding() {
           start: "center center",
           end: "+=100%",
           scrub: true,
-          pin: wrapperRef.current
+          //pin: wrapperRef.current
           // markers: true
         }
       }).add(flip);
