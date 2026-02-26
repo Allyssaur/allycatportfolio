@@ -244,6 +244,13 @@ p {
   width: 50px;
 }
 
+.kimonologo {
+  display: flex;
+  height: 200px;
+  width: auto;
+  background-size: contain;
+}
+
 .jobtitle, .schoolname{
   font-size: 12px;
   font-family: var(--hero);
