@@ -52,10 +52,10 @@ const router = createBrowserRouter([
 
 ]);
 
-//  createRoot(document.getElementById('root')).render(
-//   <StrictMode>
-//     <RouterProvider router={router} />
-//   </StrictMode>,
+ createRoot(document.getElementById('root')).render(
+  <StrictMode>
+    <RouterProvider router={router} />
+  </StrictMode>,
 {/* <HashRouter>
   <Routes>
     <Route path="/" element={<App />} />
@@ -72,4 +72,4 @@ const router = createBrowserRouter([
         <Route path="*" element={<NotFoundPage />} />
   </Routes>
 </HashRouter> */}
-// )
+)
