@@ -9,6 +9,9 @@ gsap.registerPlugin(ScrollTrigger);
 
 
 const Timeline = () => {
+  ScrollTrigger.clearScrollMemory("manual");
+window.scrollTo(0, 0);
+
   const containerRef = useRef(null);
   const fillRef = useRef(null);
   const itemsRef = useRef([]);

@@ -29,6 +29,9 @@ const logos = [
 
 export default function otherLogos() {
 
+  ScrollTrigger.clearScrollMemory("manual");
+window.scrollTo(0, 0);
+
 const navigate = useNavigate();
     const handleHOMEClick = () => {
     console.log('Button clicked, navigating now...'); 

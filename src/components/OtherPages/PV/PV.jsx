@@ -17,7 +17,11 @@ import IMG8 from './Images/AMPHallSigns.png'
 
 gsap.registerPlugin(ScrollTrigger, Flip);
 
-export default function RevealOnScroll() {
+export default function ProductionVisuals() {
+
+  ScrollTrigger.clearScrollMemory("manual");
+window.scrollTo(0, 0);
+
   const PVcontainerRef = useRef(null);
   const wrapperRef = useRef(null);
   const galleryRef = useRef(null);
@@ -36,7 +40,7 @@ export default function RevealOnScroll() {
 
     const handleHOMEClick = () => {
     console.log('Button clicked, navigating now...'); 
-    navigate('/'); 
+    navigate('/allycatportfolio'); 
     }
 
     const createTween = () => {

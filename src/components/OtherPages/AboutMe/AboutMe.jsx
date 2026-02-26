@@ -9,6 +9,9 @@ gsap.registerPlugin(ScrollTrigger);
 
 export default function AboutMe() {
 
+//   ScrollTrigger.clearScrollMemory("manual");
+// window.scrollTo(0, 0);
+
     const navigate = useNavigate();
     const handleHOMEClick = () => {
     console.log('Button clicked, navigating now...'); 

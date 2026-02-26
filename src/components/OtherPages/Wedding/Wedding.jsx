@@ -76,21 +76,14 @@ export default function Wedding() {
   };
 
   useGSAP(() => {
+    ScrollTrigger.clearScrollMemory("manual");
+window.scrollTo(0, 0);
+
     createTween();
     window.addEventListener("resize", createTween);
 
     return () => window.removeEventListener("resize", createTween);
   }, []);
-
-    function openModalWithContent(component = null) {
-    setModalContent(component);
-    setShowModal(true);
-  }
-
-    const closeModal = () => {
-      setShowModal(false);
-      setModalContent(null);
-    };
 
   useGSAP(
     () => {

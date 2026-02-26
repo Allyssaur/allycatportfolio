@@ -2,6 +2,9 @@ import { useNavigate } from 'react-router-dom';
 
 export default function Bio() { 
 
+ScrollTrigger.clearScrollMemory("manual");
+window.scrollTo(0, 0);
+
 const navigate = useNavigate();
     const handleHOMEClick = () => {
     console.log('Button clicked, navigating now...'); 

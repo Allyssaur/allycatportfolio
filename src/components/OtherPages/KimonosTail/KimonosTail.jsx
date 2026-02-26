@@ -312,6 +312,10 @@ import IMG8 from './Images/KimonosTailPage.png'
 gsap.registerPlugin(ScrollTrigger, Flip);
 
 export default function Wedding() {
+
+  ScrollTrigger.clearScrollMemory("manual");
+window.scrollTo(0, 0);
+
   const containerRef = useRef(null);
   const wrapperRef = useRef(null);
   const galleryRef = useRef(null);
