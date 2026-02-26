@@ -15,8 +15,8 @@ import AboutMe from "./components/OtherPages/AboutMe/AboutMe.jsx"
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 const router = createBrowserRouter([
-  { path:"/", element: <App /> },
-  { path: "/home", element:<Home /> },
+  { path: "/allycatportfolio", element: <Home /> },
+  // { path: "/home", element:<Home /> },
   { path: "/timeline", element: <Timeline /> },
   { path: "/productionvisuals", element: <ProductionVisuals /> },
   { path: "/wedding", element: <Wedding /> },
