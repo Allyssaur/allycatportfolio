@@ -47,7 +47,7 @@ const NotFoundPage = () => {
         <img ref={kittyright} className="wpkittyr" src={WPKR} alt="" />
       </div>
 
-      <h1>Whoopsie, Poopsie!</h1>
+      <h1>Whoopsie, Poopsie! updated!</h1>
       <div>Page Not Found! :C</div>
 
       <Link to="/">

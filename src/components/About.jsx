@@ -134,7 +134,7 @@ useGSAP(() => {
                <img ref={catPeekRef} className='catPeek' src={catPeek} />
                <img ref={catJumpRef} className='catJumpin' src={catJump} />
                 <div className='copy'>
-                  <div ref={heroTitle} className='herotitle'>HOLY SHIT IT WORKED</div>
+                  <div ref={heroTitle} className='herotitle'>Hello There.</div>
                   <div ref={subHeroTitle} className='subherotitle'> I'm Ally.  Your artistic ally. </div>
                   <span ref={btn} className='aboutbtn' onClick={handleAboutClick}>About Me</span>
                 </div>
