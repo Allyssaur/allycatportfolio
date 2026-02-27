@@ -287,7 +287,7 @@ const KimonosTail = () => {
       <h1>MORE ABOUT KIMONO'S TAIL COMING SOON!</h1>
       <div>This brand is currently being built out to it's fullest!  Please allow me just a bit more time to fully flesh this one out!</div>
 
-      <Link to="/allycatprotfolio">
+      <Link to="/allycatportfolio">
         <button>Go Back</button>
       </Link>
     </div>
