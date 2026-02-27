@@ -109,9 +109,9 @@ const navigate = useNavigate();
       if (mobile) {
           tl.fromTo(timelineSampRef.current, { x: '0%', y: '0%', opacity: 0 }, { x: '0%', y: "0%", opacity: 1 }, 0);
          tl.fromTo(catFallExpRef.current,{   x:"0%", y: '-400%', opacity:0, scale: 0.6, rotate: 10 }, { x: '0%', y: '-402%', scale: 0.6, rotate: 0, opacity: 1, }, 1);
-         //tl.fromTo(sissorsExpRef.current, { x: '-5', y:"-40%", opacity:0, scale: 0.4, rotate: 240}, { x: '5%', y: "-30%",rotate: 0, scale: 0.4, opacity: 1 }, 1.3);
-         //tl.fromTo(pencilExpRef.current, { x: '-20%', y: "-1000%", opacity:0, scale: 0.4, rotate:220 }, { x: '-20%', y:"-950%", scale: 0.4, rotate: 50, opacity: 1}, 1.3);
-         //tl.fromTo(penExpRef.current, { y:"-50%", opacity:0, scale: 0.5, rotate:20}, {x: '-40%', y: "-80%", scale: 0.5, rotate: 300, opacity: 1 }, 2);    
+         tl.fromTo(sissorsExpRef.current, { x: '-30%', opacity:0, scale: 0.4, rotate: 240}, { x: '5%', y: "-30%",rotate: 0, scale: 0.4, opacity: 1 }, 1.3);
+         tl.fromTo(pencilExpRef.current, { x: '-20%', y: "-2000%", opacity:0, scale: 0.1, rotate:220 }, { x: '-20%', y:"-1950%", scale: 0.4, rotate: 50, opacity: 1}, 1.3);
+         //tl.fromTo(penExpRef.current, { y:"-50%", opacity:0, scale: 0.5, rotate:20}, {x: '-40%', y: "-830%", scale: 0.5, rotate: 300, opacity: 1 }, 2);    
 
       }
     }
@@ -158,15 +158,15 @@ const navigate = useNavigate();
                     </div>
                   </div>
               </div>
-              {/* <div className="sissorsDiv" ref={sissorsExpRef}>
+              <div className="sissorsDiv" ref={sissorsExpRef}>
                             <img src={sissors} />
-                        </div> */}
-                        {/* <div className="penDiv" ref={penExpRef}>
+                        </div>
+                        <div className="penDiv" ref={penExpRef}>
                             <img src={pen} />
-                        </div> */}
-                        {/* <div className="pencilDiv" ref={pencilExpRef}>
+                        </div>
+                        <div className="pencilDiv" ref={pencilExpRef}>
                             <img src={pencil} />
-                        </div> */}
+                        </div>
                         <div className='catDiv' ref={catFallExpRef}>
                           <img src={catFall}/>
                         </div>

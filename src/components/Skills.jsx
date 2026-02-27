@@ -55,7 +55,7 @@ useGSAP(() => {
         scrub: 1,
         //markers: true,
         pin: "#skillswrapper",
-        anticipatePin: true,
+        //anticipatePin: true,
         invalidateOnRefresh: true,
       },
     })

@@ -121,9 +121,9 @@ p {
   height: auto;
 }
 
-// .skillswrapper, .expwrapper {
-//   width: 100dvw;
-// }
+.skillswrapper, .expwrapper {
+  width: 100dvw;
+}
 //----PARALLAX--SKILLS----
 .sampsw{
   width: 80%;
@@ -342,18 +342,18 @@ p {
 }
 
 .expborder {
-  // position: relative;
-  // //writing-mode: vertical-rl;
-  // z-index: 100;
-  // left: -5dvw;
+  position: relative;
+  //writing-mode: vertical-rl;
+  z-index: 100;
+  left: -5dvw;
   color: var(--darkpurple);
   font-size: 10dvh;
   font-weight: 800;
 }
 
 .testcaption {
-    position: absolute;
-    //text-align: left;
+  position: absolute;
+    text-align: left;
     bottom: -6%;
     right: 0;
     color: var(--darkpurple);
@@ -924,7 +924,10 @@ button {
     font-size: 2.5vh;
     padding: 1vw;
   }
-
+  .sampdesc p{
+    font-size: 2.5vh;
+    //padding: 1vw 1vw 3vw 1vw;
+  }
   button {
     font-size: 1.5vh;
     padding: 1vw 2vw;
@@ -973,6 +976,13 @@ button {
 
 .tlHead {
   font-size: 2vw;
+}
+
+.sampdesc p{
+  font-size: 1vw;
+  // line-height: 1em;
+  padding-left: 7%;
+  padding: 1vw 1vw 1vw 1vw;
 }
 
 .sampjobtitle {
@@ -1077,7 +1087,10 @@ grid-row-gap: 0px;
     font-size: 2.5vh;
     padding: 1vw;
   }
-  
+  .sampdesc p{
+    font-size: 2.5vh;
+    padding: 1vh;
+  }
   button {
     margin-left: 30vw;
     font-size: 2vh;
@@ -1420,3 +1433,21 @@ grid-row-gap: 0px;
     padding: 5% 50%;
   }
 }
+
+// @media screen and (max-width: 400px) {
+// 	.progress-bar {
+// 		width: 180px;
+// 	}
+// 	.progress-step {
+// 		width: 25px;
+// 		height: 25px;
+// 		font-size: 12px;
+// 		margin-top: -10px;
+// 	}
+// 	h2 {
+// 		font-size: 1.6rem;
+// 	}
+// 	.text-block {
+// 		padding: 1.2rem;
+// 	}
+// }
