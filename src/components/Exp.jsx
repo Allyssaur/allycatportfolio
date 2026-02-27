@@ -96,7 +96,7 @@ const navigate = useNavigate();
         tl.fromTo(catFallExpRef.current,{   x:"50%", y: '-520%', opacity:0, scale: 0.4, rotate: 0 }, { x: '50%', y: '-370%', scale: 0.6, rotate: -5, opacity: 1, }, 0);
         tl.fromTo(sissorsExpRef.current, { x: '-25%', opacity:1, scale: 0.4 }, { x: '0%', y: "-50%", rotate: 0, opacity: 1 }, 0.8);
         tl.fromTo(pencilExpRef.current, { x: "-20%", y: "-2500", opacity:0, scale: 0.1 }, { x: "20%", y: "-2050%", scale: 0.5, opacity: 1, rotate: -50}, 1);
-        tl.fromTo(penExpRef.current, { x: "130%", opacity:0, y: "-1500%", scale: 0.3, rotate:0}, {x: '130%', y:"-1000%", scale: 0.5, rotate: 0, opacity: 1 }, 0.8);    
+        tl.fromTo(penExpRef.current, { x: "130%", opacity:0, y: "-1500%", scale: 0.3, rotate:0}, {x: '130%', y:"-1000%", rotate: 0, opacity: 1 }, 0.8);    
         tl.fromTo(timelineSampRef.current, { x: '0%', opacity: 1 }, { x: '0%', y: "0%", opacity: 1 }, .5);
         tl.to(catFallExpRef.current, { x: '0%', y: '0%', scale: 0.6, rotate: -15, opacity: 0, }, 2);
         }
