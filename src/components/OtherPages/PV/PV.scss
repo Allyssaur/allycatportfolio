@@ -33,7 +33,7 @@
   object-fit: cover;
   display: block;
   height: 60%;
-  width: 100%;
+  width: 100dvw;
   // padding-right: 60px;
 }
 
@@ -100,7 +100,7 @@
 .gallery-wrap {
   position: relative;
   width: 100%;
-  height: 100dvh;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -130,15 +130,15 @@
 .gallery--bento {
   display: grid;
   gap: 1dvh;
-  grid-template-columns: repeat(3, 32.5vw);
-  grid-template-rows: repeat(4, 23vh);
+  grid-template-columns: repeat(3, 32.5dvw);
+  grid-template-rows: repeat(4, 23dvh);
   justify-content: center;
   align-content: center;
 }
 
 .gallery--final.gallery--bento {
-  grid-template-columns: repeat(3, 100vw);
-  grid-template-rows: repeat(4, 49.5vh);
+  grid-template-columns: repeat(3, 100dvw);
+  grid-template-rows: repeat(4, 49.5dvh);
   gap: 1vh;
 }
 
@@ -197,7 +197,7 @@
 }
 
 .PVButton {
-  padding:3% 50%;
+  padding:2dvh 20dvw;
   border-radius: 10px;
   font-size: 2dvh;
   background-color: #482a4e;
@@ -280,6 +280,7 @@
 
   .portcontent {
     padding: 3em;
+    margin-top: 25%;
     //background: #d6ccc0;
     //margin-bottom: 2em;
     border-radius: 50px;
