@@ -9,7 +9,7 @@
   flex-wrap: wrap;
   align-items: center;
   gap: 2em;
-  height: 100vh;
+  height: 100dvh;
 }
 
 .portitem--left {
@@ -18,13 +18,13 @@
 
 .portimage {
   flex: 40%;
-  height: 35svh;
+  height: 35dvh;
   position: relative;
 }
 
 .portcard {
   position: relative;
-  height: 50svh;
+  height: 50dvh;
 }
 
 .portimg {
@@ -52,13 +52,13 @@
 .portdescription {
   line-height: 1.4;
   color: #2f1921;
-  font-size: 2vh;
+  font-size: 2dvh;
   
   //padding: 10%;
 }
 
 .portdescription p {
-  font-size: 2.5vh;
+  font-size: 2.5dvh;
   color: #2f1921;
 }
 
@@ -77,13 +77,13 @@
 }
 
 .portspacer {
-  height: 100vh;
+  height: 100dvh;
 }
 
 .backbtn {
   padding: 1em;
-  top: 2vh;
-  left: 3vh;
+  top: 2dvh;
+  left: 3dvh;
   border-radius: 30px;
   position: fixed;
   background-color: #482a4e;
@@ -100,7 +100,7 @@
 .gallery-wrap {
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: 100dvh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -129,7 +129,7 @@
 
 .gallery--bento {
   display: grid;
-  gap: 1vh;
+  gap: 1dvh;
   grid-template-columns: repeat(3, 32.5vw);
   grid-template-rows: repeat(4, 23vh);
   justify-content: center;
@@ -182,13 +182,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 5vh 3vh 5vh 3vh;
-  width: 100vw;
+  padding: 5dvh 3dvh 5dvh 3dvh;
+  width: 100dvw;
   background-color: #d6ccc0;
 }
 
 .contactp {
-  font-size: 1.5vh;
+  font-size: 1.5dvh;
   color: #2f1921;
 }
 
@@ -199,7 +199,7 @@
 .PVButton {
   padding:3% 50%;
   border-radius: 10px;
-  font-size: 2vh;
+  font-size: 2dvh;
   background-color: #482a4e;
 }
 
@@ -263,18 +263,18 @@
   }
 
   .portimg {
-    width: 100svw;
+    width: 100dvw;
     height: 40%;
   }
 
   .PVButton{
      padding: 1em 2em 1em 2em;
      width: 40%;
-     font-size: 2.5vw;
+     font-size: 2.5dvw;
   }
 
   .portdescription {
-    font-size: 2.5vw;
+    font-size: 2.5dvw;
     padding: 2em 3em 2em 0em;
   }
 
