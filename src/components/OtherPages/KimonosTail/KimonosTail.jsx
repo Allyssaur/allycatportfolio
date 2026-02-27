@@ -273,42 +273,11 @@
 
 import { Link } from "react-router-dom";
 import { useRef } from "react";
-import { useGSAP } from "@gsap/react";
-import gsap from "gsap";
 import KMTLogo from "../KimonosTail/Images/KimonosTailColor.png";
 
 const KimonosTail = () => {
   const container = useRef(null);
-  // const kittyleft = useRef(null);
-  // const kittyright = useRef(null);
-
-  // useGSAP(
-  //   () => {
-  //     const tl = gsap.timeline({ repeat: -1, ease: "none" });
-
-  //     tl.to(
-  //       kittyleft.current,
-  //       { rotate: -360, 
-  //         duration: 2,
-  //         repeat: -1,
-  //         //yoyo: true,
-  //         ease: 'none',
-  //       },
-  //       0
-  //     ).to(
-  //       kittyright.current,
-  //       { rotate: 360, 
-  //         duration: 2,
-  //         repeat: -1,
-  //         //yoyo: true,
-  //         ease: 'none',
-  //       },
-  //       0
-  //     );
-  //   },
-  //   { scope: container }
-  // );
-
+  
   return (
     <div className="whoopsiepoopsie" ref={container}>
       <div className="kimonologo">
