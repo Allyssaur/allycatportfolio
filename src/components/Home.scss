@@ -124,8 +124,8 @@ p {
 //----PARALLAX--SKILLS----
 .sampsw{
   width: 80%;
-  height: 90dvh;
-  padding: 0 0 0 6%;
+  height: 67dvh;
+  padding: -1px 0 0 6%;
 }
 
 .sampimg, .sampimg2 {
@@ -196,7 +196,7 @@ p {
 }
 
 .imgcont {
-  //margin: 1dvh 1dvh 0 1dvh;
+  margin: 1dvh 1dvh 0 1dvh;
   background-size: 6dvh auto;
   height: 6dvh;
   width: 6dvh;
@@ -312,6 +312,17 @@ p {
   padding: 0 0 1em 2em;
 
 }
+
+.sampsw{
+  width: 80%;
+  //height: 67dvh;
+  padding: 0 0 0 6%;
+}
+
+.sampcon{
+  height: 100%;
+}
+
 .sampdesc p {
   color: var(--darkpurple);
   font-size: 2dvh;
@@ -826,7 +837,7 @@ button {
 
   .imgcont {
   margin: 1dvh 1dvh 0 1dvh;
-  background-size: 7vh auto;
+  background-size: 7dvh auto;
   height: 7dvh;
   width: 7dvh;
 }

@@ -1,5 +1,3 @@
-import Invite from './Invite.jsx'
-import Modal from '../Modal.jsx'
 import { useRef,useState } from "react";
 import gsap from "gsap";
 import { ScrollTrigger, Flip } from "gsap/all";
@@ -24,9 +22,6 @@ export default function Wedding() {
   const flipCtx = useRef(null);
 
   const images = [IMG1, IMG2, IMG3, IMG4, IMG5];
-
-  const [showModal, setShowModal] = useState(false);
-  const [modalContent, setModalContent] = useState(null);
 
   const navigate = useNavigate();
     const handleHOMEClick = () => {
@@ -259,10 +254,6 @@ window.scrollTo(0, 0);
                 <p className="contactp">(excluding invitation related photography)</p>
             </div>
     </div>
-{/* 
-    <Modal show={showModal} onClose={closeModal}>
-                     {modalContent}
-                   </Modal> */}
 </>
   );
 }

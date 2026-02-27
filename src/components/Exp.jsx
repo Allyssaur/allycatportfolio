@@ -105,7 +105,7 @@ const navigate = useNavigate();
          MOBILE (MINIMAL)
       ------------------------- */
       if (mobile) {
-         tl.fromTo(timelineSampRef.current, { x: '0%', y: '0%', opacity: 0, scale: 0.5 }, { x: '0%', y: "0%", opacity: 1, scale: 1 }, 0);
+         tl.fromTo(timelineSampRef.current, { x: '0%', y: '0%', opacity: 0 }, { x: '0%', y: "0%", opacity: 1 }, 0);
         tl.fromTo(catFallExpRef.current,{   x:"0%", y: '-400%', opacity:0, scale: 0.4, rotate: 10 }, { x: '0%', y: '-402%', scale: 0.6, rotate: 0, opacity: 1, }, 1);
         tl.fromTo(sissorsExpRef.current, { x: '-50%', opacity:0, scale: 0.4, rotate: 240}, { x: '5%', y: "-30%",rotate: 0, opacity: 1 }, 1.3);
         tl.fromTo(pencilExpRef.current, { x: '-40%', y: "-2000%", opacity:0, scale: 0.1, rotate:220 }, { x: '-40%', y:"-1950%", scale: 0.4, rotate: 50, opacity: 1}, 1.3);

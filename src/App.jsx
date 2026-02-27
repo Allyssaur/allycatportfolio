@@ -7,12 +7,9 @@ import AboutMe from "./components/OtherPages/AboutMe/AboutMe.jsx"
 // import Overlays from "./components/overlays.jsx"
 
 function App() {
-
-    const [isOpen, setIsOpen] = useState(false);
+  
   return (
     <>
-    
-  {/* <Overlays isOpen={isOpen} /> */}
 
     <div className='maincontainer'>
       <Home />    
