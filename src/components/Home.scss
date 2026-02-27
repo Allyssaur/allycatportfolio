@@ -84,7 +84,7 @@ p {
 //----PARALLAX--ABOUT----
 
 .herotitle {
-  font-size: 3vh;
+  font-size: 3dvh;
   //color: var(--grey);
   position: relative;
   left: 0;
@@ -104,7 +104,7 @@ p {
 
 .cardtitle {
   font-family: var(--para), arial, sans-serif;
-  font-size: 2.7vh;
+  font-size: 2.7dvh;
   font-weight: 600;
   color: var(--primaryColor);
 }
@@ -112,7 +112,7 @@ p {
 .vptext {
   color: var(--primaryColor);
   font-family: var(--darkpurple), arial, sans-serif;
-  font-size: 2vh;
+  font-size: 2dvh;
 }
 
 .flex-item {
@@ -124,6 +124,7 @@ p {
 //----PARALLAX--SKILLS----
 .sampsw{
   width: 80%;
+  height: 90dvh;
   padding: 0 0 0 6%;
 }
 
@@ -195,10 +196,10 @@ p {
 }
 
 .imgcont {
-  margin: 1vh 1vh 0 1vh;
-  background-size: 7vh auto;
-  height: 7vh;
-  width: 7vh;
+  //margin: 1dvh 1dvh 0 1dvh;
+  background-size: 6dvh auto;
+  height: 6dvh;
+  width: 6dvh;
 }
 .wares {
   position: relative;
@@ -213,9 +214,9 @@ p {
   //writing-mode: vertical-rl;
   z-index: 100;
   //left: -5vw;
-  color: var(--primaryColor);
+  color: var(--darkpurple);
   font-family: var(--hero);
-  font-size: 8vh;
+  font-size: 7dvh;
   font-weight: 800;
 }
 
@@ -226,7 +227,7 @@ p {
 }
 
 .adobesw, .fedsw, .othersw {
-  padding: .5vh;
+  padding: .5dvh;
 }
 
 .waresused{
@@ -301,19 +302,19 @@ p {
 }
 
 .tlHead {
-  font-size: 8vw;
+  font-size: 8dvw;
   color:var(--primaryColor);
 }
 
 .sampjobtitle {
   color: var(--grey);
-  font-size: 4vw;
+  font-size: 4dvw;
   padding: 0 0 1em 2em;
 
 }
 .sampdesc p {
   color: var(--darkpurple);
-  font-size: 2svh;
+  font-size: 2dvh;
   padding: 5%;
   line-height: 1em;
 }
@@ -337,8 +338,8 @@ p {
   position: relative;
   //writing-mode: vertical-rl;
   z-index: 100;
-  left: -5vw;
-  color: var(--primaryColor);
+  left: -5dvw;
+  color: var(--darkpurple);
   font-size: 10vh;
   font-weight: 800;
 }
@@ -361,7 +362,7 @@ p {
 }
 
 .header2{
-  font-size: 3vh;
+  font-size: 3dvh;
   display: flex;
   justify-content: center;
   z-index: 0;
@@ -370,27 +371,27 @@ p {
 }
 
 .spacer {
-  padding-top:15vh;
+  padding-top:15dvh;
 }
 
 .contactcont {
   display: block;
-  height: 64vh;
-  width: 100vw;
+  height: 64dvh;
+  width: 100dvw;
   background-color: var(--cream);
   border-radius: 10px 10px 0 0;
 }
 
 .title{
   text-align: center;
-  font-size: 6vh;
+  font-size: 6dvh;
   font-weight: 800;
-  padding-top: 15vh;
+  padding-top: 15dvh;
   color: var(--cream);
 }
 
 .smolcomment{
-  font-size: 2vh;
+  font-size: 2dvh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -450,11 +451,11 @@ grid-column-gap: 10px;
   display: flex;
   justify-content: left;
   align-items: center;
-  padding: 2vh;
+  padding: 2dvh;
 }
 
 .paracontcont p {
-  font-size: 2vh;
+  font-size: 2dvh;
 }
 
 .parallax-outer {
@@ -602,7 +603,7 @@ height: 10vh;
   display: inline-block;
   position: fixed;
   left: 15vw;
-  top: 20vh;
+  top: 20dvh;
 }
 .whoopsiepoopsie div {
   padding: 10px;
@@ -610,13 +611,13 @@ height: 10vh;
 }
 
 .wpkittybody {
-  height: 35vw;
+  height: 35dvw;
   width: auto;
 }
 
 .wpkittyl, .wpkittyr {
   position: relative;
-  height: 3.5vh;
+  height: 3.5dvh;
   width: auto;
 }
 
@@ -635,19 +636,19 @@ height: 10vh;
 // }
 
  .wpkittyr {
-   left: 8.7vw;
-   bottom: 7.8vh;
+   left: 8.7dvw;
+   bottom: 7.8dvh;
  }
 
  .wpkittyl {
-   left: 7vw;
-   bottom: 8vh;
+   left: 7dvw;
+   bottom: 8dvh;
  }
 
 .copy {
   position: absolute;
-  bottom: 6vh;
-  left: 23vw;
+  bottom: 6dvh;
+  left: 23dvw;
   //transform: translate(-50%, -50%);
   display: flex;
   align-items: center;
@@ -670,7 +671,7 @@ height: 10vh;
   font-weight: 600;
   border-radius: 0.5rem;
   opacity: 0;
-  width: 30vw;
+  width: 30dvw;
 }
 
 button {
@@ -698,7 +699,7 @@ button {
 
 .works-section {
   position: relative;
-  min-height: 100svh;
+  min-height: 100dvh;
 }
 
 .gallery {
@@ -728,7 +729,7 @@ button {
 .cardcontainer {
   padding: 0;
   margin: 0;
-  width: 60vw;
+  width: 60dvw;
   aspect-ratio: 9/16;
   height: auto;
   //text-align: center;
@@ -818,6 +819,17 @@ button {
     right: 18.5vw;
     bottom: 6vh;
   }
+
+  .swsmol {
+    height: 100%;
+  }
+
+  .imgcont {
+  margin: 1dvh 1dvh 0 1dvh;
+  background-size: 7vh auto;
+  height: 7dvh;
+  width: 7dvh;
+}
 
   .cardtitle {
     font-size: 4vh;
