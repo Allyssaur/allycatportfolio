@@ -44,7 +44,7 @@ const navigate = useNavigate();
 
   const handleClick = () => {
     console.log('Button clicked, navigating now...'); 
-    navigate('/timeline'); 
+    navigate('/allycatportfolio/timeline'); 
   };
 
      useGSAP( () => {

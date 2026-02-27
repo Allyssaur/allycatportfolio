@@ -37,7 +37,7 @@ useEffect(() => {
   const navigate = useNavigate();
     const handlePVClick = () => {
     console.log('Button clicked, navigating now...'); 
-    navigate('/artistguide'); 
+    navigate('/allycatportfolio/artistguide'); 
     }
 
     const handleHOMEClick = () => {

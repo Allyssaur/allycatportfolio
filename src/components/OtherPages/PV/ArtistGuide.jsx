@@ -3,6 +3,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
 import './ArtistGuide.scss';
+import {useNavigate} from "react-router-dom"
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -27,6 +28,11 @@ export default function Guide() {
   const pagesRef = useRef([]);
   const bookBaseRef = useRef(null);
   
+   const navigate = useNavigate();
+    const handleBackClick = () => {
+    console.log('Button clicked, navigating now...'); 
+    navigate('/allycatportfolio/productionvisuals'); 
+    }
 
   useGSAP(() => {
     const pages = pagesRef.current;
@@ -93,6 +99,11 @@ export default function Guide() {
   };
 
   return (
+
+    <>
+    <div className="backbtn" onClick={handleBackClick}>
+            ←
+        </div>
     <div className="book-container" ref={bookcontainRef}>
 
       <div className="book-base" ref={bookBaseRef}></div>
@@ -118,5 +129,6 @@ export default function Guide() {
         <div className="cover side back">Back Cover</div>
       </div>
     </div>
+    </>
   );
 }

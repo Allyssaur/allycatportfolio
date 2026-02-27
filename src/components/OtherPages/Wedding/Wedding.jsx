@@ -31,7 +31,7 @@ export default function Wedding() {
 
     const handleInviteClick = () => {
     console.log('Button clicked, navigating now...'); 
-    navigate('/invite'); 
+    navigate('/allycatportfolio/invite'); 
     }
 
     const createTween = () => {

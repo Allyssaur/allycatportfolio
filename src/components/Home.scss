@@ -1133,8 +1133,8 @@ grid-row-gap: 0px;
 }
 
 .main {
-  left: 48%;
-  top: 15%;
+  left: 47%;
+  top: 20%;
 }
 
 .rsvp{
@@ -1142,9 +1142,9 @@ grid-row-gap: 0px;
   top: 48%;
 }
 
-.details {
-  left: 58%;
-  top: 5%;
+.detailsinvite {
+  left: 57%;
+  top: 0%;
 }
 
 .envinner {
@@ -1157,9 +1157,14 @@ grid-row-gap: 0px;
   top: 28%;
 }
 
-.main img, .details img{
+.main img {
   width:auto;
   height: 70vh;
+}
+
+.detailsinvite img {
+  width: auto;
+  height: 68vh;
 }
 
 .rsvp img {

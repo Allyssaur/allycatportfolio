@@ -16,16 +16,16 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 const router = createBrowserRouter([
   { path:"/allycatportfolio", element: <App /> },
-  { path: "/home", element:<Home /> },
-  { path: "/timeline", element: <Timeline /> },
-  { path: "/productionvisuals", element: <ProductionVisuals /> },
-  { path: "/wedding", element: <Wedding /> },
-  { path: "/kimonostail", element: <KimonosTail/> },
-  { path: "/otherlogos", element: <OtherLogos/> },
-  { path: "/illustrations", element: <Illustrations /> },
-  { path: "/artistguide", element: <Guide /> },
-  { path: "/invite", element: <Invite /> },
-  { path: "/aboutme", element: <AboutMe /> },
+  { path: "allycatportfolio/home", element:<Home /> },
+  { path: "allycatportfolio/timeline", element: <Timeline /> },
+  { path: "/allycatportfolio/productionvisuals", element: <ProductionVisuals /> },
+  { path: "/allycatportfolio/wedding", element: <Wedding /> },
+  { path: "allycatportfolio/kimonostail", element: <KimonosTail/> },
+  { path: "allycatportfolio/otherlogos", element: <OtherLogos/> },
+  { path: "allycatportfolio/illustrations", element: <Illustrations /> },
+  { path: "/allycatportfolio/artistguide", element: <Guide /> },
+  { path: "/allycatportfolio/invite", element: <Invite /> },
+  { path: "/allycatportfolio/aboutme", element: <AboutMe /> },
   { path: "*", element: <NotFoundPage /> }
 
 ]);

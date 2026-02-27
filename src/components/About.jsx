@@ -19,7 +19,7 @@ export default function About() {
 const navigate = useNavigate();
     const handleAboutClick = () => {
     console.log('Button clicked, navigating now...'); 
-    navigate('/aboutme'); 
+    navigate('/allycatportfolio/aboutme'); 
     }
 
 

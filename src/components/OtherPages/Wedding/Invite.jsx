@@ -8,6 +8,7 @@ import INVITEDETAILS from "./Images/invite3.png"
 import INVITEENVOUTER from "./Images/invite5.png"
 import INVITEENVINNER from "./Images/invite6.png"
 import INVITECARD from "./Images/invite1.png"
+import {useNavigate} from "react-router-dom"
 // import { InertiaPlugin } from "gsap/InertiaPlugin"; // If you have Club GSAP
 
 gsap.registerPlugin(Draggable /*, InertiaPlugin */);
@@ -20,6 +21,12 @@ export default function Invite() {
   const envelopeouterRef = useRef(null);
   const envelopeinnerRef = useRef(null);
   const invitecardRef = useRef(null);
+
+   const navigate = useNavigate();
+    const handleBackClick = () => {
+    console.log('Button clicked, navigating now...'); 
+    navigate('/allycatportfolio/wedding'); 
+    }
 
   useGSAP(() => {
     Draggable.create(mainRef.current, {
@@ -64,8 +71,12 @@ export default function Invite() {
   
 
   return (
+    <>
+    <div className="backbtn" onClick={handleBackClick}>
+            ←
+        </div>
     <div ref={invitecontainerRef} className="invitescontainer">
-      <div ref={detailsRef} className="paper details">
+      <div ref={detailsRef} className="paper detailsinvite">
         <img src={INVITEDETAILS}/>
       </div>
       <div ref={mainRef} className="paper main">
@@ -84,5 +95,6 @@ export default function Invite() {
         <img className="imgbox" src={INVITECARD} />
         </div>
     </div>
+    </>
   );
 }

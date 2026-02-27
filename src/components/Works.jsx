@@ -17,11 +17,11 @@ import ACS2 from "../assets/Icons/ACSIconACTIVE.png";
 gsap.registerPlugin(ScrollTrigger, Draggable);
 
 const cardsData = [
-  { id: "card4", title: "Other Logo Works", link: "/otherlogos", image: DDI1, activeImage: DDI2 },
-  { id: "card5", title: "Illustration Work", link: "/illustrations", image: ACS1, activeImage: ACS2 }, 
-  { id: "card1", title: "Walmart AMP Artist Guide", link: "/productionvisuals", image: AMP1, activeImage: AMP2},
-  { id: "card2", title: "BeaverxMarciniak Wedding", link: "/wedding", image: WED1, activeImage: WED2},
-  { id: "card3", title: "Kimono's Tail", link: "/kimonostail", image: KT1, activeImage: KT2},
+  { id: "card4", title: "Other Logo Works", link: "/allycatportfolio/otherlogos", image: DDI1, activeImage: DDI2 },
+  { id: "card5", title: "Illustration Work", link: "/allycatportfolio/illustrations", image: ACS1, activeImage: ACS2 }, 
+  { id: "card1", title: "Walmart AMP Artist Guide", link: "/allycatportfolio/productionvisuals", image: AMP1, activeImage: AMP2},
+  { id: "card2", title: "BeaverxMarciniak Wedding", link: "/allycatportfolio/wedding", image: WED1, activeImage: WED2},
+  { id: "card3", title: "Kimono's Tail", link: "/allycatportfolio/kimonostail", image: KT1, activeImage: KT2},
 ];
 
 export default function Works() {
