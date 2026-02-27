@@ -341,15 +341,15 @@ p {
   margin-left: 20%;
 }
 
-.expborder {
-  position: relative;
-  //writing-mode: vertical-rl;
-  z-index: 100;
-  left: -5dvw;
-  color: var(--darkpurple);
-  font-size: 10dvh;
-  font-weight: 800;
-}
+// .expborder {
+//   position: relative;
+//   //writing-mode: vertical-rl;
+//   z-index: 100;
+//   left: -5dvw;
+//   color: var(--darkpurple);
+//   font-size: 10dvh;
+//   font-weight: 800;
+// }
 
 .testcaption {
   position: absolute;
@@ -654,8 +654,8 @@ height: 10vh;
 
 .copy {
   position: absolute;
-  bottom: 6dvh;
-  left: 23dvw;
+  bottom: 7dvh;
+  left: 25dvw;
   //transform: translate(-50%, -50%);
   display: flex;
   align-items: center;
