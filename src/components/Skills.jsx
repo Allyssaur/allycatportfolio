@@ -1,6 +1,5 @@
 import React, { useRef, useState } from "react"
 import "./Home.scss"
-import "./Exp.scss"
 import { useGSAP } from "@gsap/react"
 import gsap from "gsap"
 import catFall from "../assets/kittysidejump.png"

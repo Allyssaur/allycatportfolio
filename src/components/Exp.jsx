@@ -1,6 +1,6 @@
 import React, { useRef } from "react"
 import "./Home.scss"
-import "./Exp.scss"
+// import "./Exp.scss"
 import { useGSAP } from "@gsap/react"
 import gsap from "gsap"
 import catFall from "../assets/kittysidejump.png"
@@ -74,10 +74,7 @@ const navigate = useNavigate();
         invalidateOnRefresh: true,
       },
 
-     }); 
-        tl.to(sissorsExpRef.current, { rotate: '60', y: "0%", opacity: 0 }, 3.5);
-        tl.to(penExpRef.current, { rotate: '60', y: "0%", opacity: 0 }, 3);
-        tl.to(pencilExpRef.current, { rotate: '60', y: "0%", opacity: 0 }, 3)
+     });
 
       if (desktop) {
         tl.fromTo(catFallExpRef.current,{   x:"60%", y:"-520%", opacity:0, rotate: 0 }, { x: '60%', y: "-440%", rotate: -20, opacity: 1, }, 0);
@@ -85,8 +82,11 @@ const navigate = useNavigate();
         tl.fromTo(pencilExpRef.current, { x: '0%', y: "-100%", opacity:0, rotate:220 }, { x: '170%', y:"-1300%", rotate: 10, opacity: 1}, 0.2);
         tl.fromTo(penExpRef.current, { opacity:0, x:"0%", y: "0%", rotate:20}, {x: '180%', y: "0%", rotate: 300, opacity: 1 }, 0.6);    
         tl.fromTo(timelineSampRef.current, { x: '0', y: '0%', opacity: 0, }, { x: '0%', y: "0%", opacity: 1 }, .5);
-        tl.to(catFallExpRef.current, { rotate: '0', x: "0%", y: "0%", opacity: 0 }, 3.5);
+        tl.to(penExpRef.current, { rotate: '60', y: "0%", opacity: 0 }, 3);
         tl.to(timelineSampRef.current, { y: "-1000%", opacity: 0}, 3)
+        tl.to(pencilExpRef.current, { rotate: '60', y: "0%", opacity: 0 }, 3)
+        tl.to(sissorsExpRef.current, { rotate: '60', y: "0%", opacity: 0 }, 3.5);
+        tl.to(catFallExpRef.current, { rotate: '0', x: "0%", y: "0%", opacity: 0 }, 3.5);
       }
 
       /* -------------------------
@@ -99,6 +99,9 @@ const navigate = useNavigate();
         tl.fromTo(penExpRef.current, { x: "130%", opacity:0, y: "-1500%", scale: 0.3, rotate:0}, {x: '130%', y:"-1000%", rotate: 0, opacity: 1 }, 0.8);    
         tl.fromTo(timelineSampRef.current, { x: '0%', opacity: 1 }, { x: '0%', y: "0%", opacity: 1 }, .5);
         tl.to(catFallExpRef.current, { x: '0%', y: '0%', scale: 0.6, rotate: -15, opacity: 0, }, 2);
+        tl.to(penExpRef.current, { rotate: '60', y: "0%", opacity: 0 }, 3);
+        tl.to(pencilExpRef.current, { rotate: '60', y: "0%", opacity: 0 }, 3)
+        tl.to(sissorsExpRef.current, { rotate: '60', y: "0%", opacity: 0 }, 3.5);
         }
 
       /* -------------------------
@@ -106,10 +109,10 @@ const navigate = useNavigate();
       ------------------------- */
       if (mobile) {
          tl.fromTo(timelineSampRef.current, { x: '0%', y: '0%', opacity: 0 }, { x: '0%', y: "0%", opacity: 1 }, 0);
-        tl.fromTo(catFallExpRef.current,{   x:"0%", y: '-400%', opacity:0, scale: 0.4, rotate: 10 }, { x: '0%', y: '-402%', scale: 0.6, rotate: 0, opacity: 1, }, 1);
-        tl.fromTo(sissorsExpRef.current, { x: '-50%', opacity:0, scale: 0.4, rotate: 240}, { x: '5%', y: "-30%",rotate: 0, opacity: 1 }, 1.3);
+        tl.fromTo(catFallExpRef.current,{   x:"0%", y: '-400%', opacity:0, scale: 0.6, rotate: 10 }, { x: '0%', y: '-402%', scale: 0.6, rotate: 0, opacity: 1, }, 1);
+        tl.fromTo(sissorsExpRef.current, { x: '-50%', opacity:0, scale: 0.4, rotate: 240}, { x: '5%', y: "-30%",rotate: 0, scale: 0.4, opacity: 1 }, 1.3);
         tl.fromTo(pencilExpRef.current, { x: '-40%', y: "-2000%", opacity:0, scale: 0.1, rotate:220 }, { x: '-40%', y:"-1950%", scale: 0.4, rotate: 50, opacity: 1}, 1.3);
-        tl.fromTo(penExpRef.current, { y:"-1000", opacity:0, scale: 0.3, rotate:20}, {x: '-40%', y: "-830%", scale: 0.5, rotate: 300, opacity: 1 }, 2);    
+        tl.fromTo(penExpRef.current, { y:"-1000", opacity:0, scale: 0.5, rotate:20}, {x: '-40%', y: "-830%", scale: 0.5, rotate: 300, opacity: 1 }, 2);    
 
       }
     }
