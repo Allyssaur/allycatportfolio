@@ -156,13 +156,6 @@ p {
    border-radius: 20px;
 }
 
-// .sampwhen{
-// position: relative;
-//   font-size: 3vw;
-//   opacity: 0.8;
-//   color: var(--darkpurple);
-// }
-
 .ps{
   background-image: url("../assets/Icons/ps-01.png");
 }
@@ -256,7 +249,7 @@ p {
 }
 
 .jobtitle, .schoolname{
-  font-size: 12px;
+  font-size: 1dvw;
   font-family: var(--hero);
   padding-left: 1em;
   color: var(--grey);
@@ -354,7 +347,7 @@ p {
   z-index: 100;
   left: -5dvw;
   color: var(--darkpurple);
-  font-size: 10vh;
+  font-size: 10dvh;
   font-weight: 800;
 }
 
@@ -419,14 +412,14 @@ p {
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-size: 3vh;
+  font-size: 3dvh;
   font-weight: 600;
   color: var(--primaryColor);
   padding: 15vh 0 2vh 0;
 }
 
 .info p {
-  font-size: 2vh;
+  font-size: 2dvh;
   font-weight: 400;
   color: var(--primaryColor);
 }
@@ -444,7 +437,7 @@ p {
 }
 
 .circle p {
-  font-size: 4vh;
+  font-size: 4dvh;
   color:var(--cream);
   display: flex;
   padding: -3vh;
@@ -486,7 +479,7 @@ grid-column-gap: 10px;
 
 .bannertitle {
   display: flex;
-  font-size: 5vh;
+  font-size: 5dvh;
   color: var(--primaryColor);
   font-family: var(--para);
   justify-content: center;
