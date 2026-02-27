@@ -93,7 +93,7 @@ p {
 }
 
 .subherotitle {
-  font-size: 2vh;
+  font-size: 2dvh;
   color: var(--grey);
   //text-align: left;
   font-family: var(--hero), arial, sans-serif;
@@ -259,13 +259,13 @@ p {
   right: 1em;
   bottom: -.45em;;
   font-family: var(--para);
-  font-size: 25px;
+  font-size: 1.5dvw;
   opacity: 0.8;
   color: #b6af9f;
 }
 
 .desc {
-  font-size: 11px;
+  font-size: 1dvw;
   font-family: var(--para);
 }
 
@@ -285,7 +285,7 @@ p {
 
 .contcont div {
   padding: 5px;
-  font-size: 20px;
+  font-size: 1.5dvh;
   text-align: center;
 }
 
@@ -924,10 +924,11 @@ button {
     font-size: 2.5vh;
     padding: 1vw;
   }
-  .sampdesc p{
-    font-size: 2.5vh;
-    padding: 1vw 1vw 3vw 1vw;
-  }
+  // .sampdesc p{
+  //   font-size: 2.5vh;
+  //   color: green;
+  //   //padding: 1vw 1vw 3vw 1vw;
+  // }
   button {
     font-size: 1.5vh;
     padding: 1vw 2vw;
@@ -978,12 +979,12 @@ button {
   font-size: 2vw;
 }
 
-.sampdesc p{
-  font-size: 1vw;
-  line-height: 1em;
-  padding-left: 7%;
-  padding: 1vw 1vw 1vw 1vw;
-}
+// .sampdesc p{
+//   font-size: 1vw;
+//   // line-height: 1em;
+//   padding-left: 7%;
+//   padding: 1vw 1vw 1vw 1vw;
+// }
 
 .sampjobtitle {
   font-size: 1vw;
@@ -1087,10 +1088,10 @@ grid-row-gap: 0px;
     font-size: 2.5vh;
     padding: 1vw;
   }
-  .sampdesc p{
-    font-size: 2.5vh;
-    padding: 1vh;
-  }
+  // .sampdesc p{
+  //   font-size: 2.5vh;
+  //   padding: 1vh;
+  // }
   button {
     margin-left: 30vw;
     font-size: 2vh;
@@ -1433,21 +1434,3 @@ grid-row-gap: 0px;
     padding: 5% 50%;
   }
 }
-
-// @media screen and (max-width: 400px) {
-// 	.progress-bar {
-// 		width: 180px;
-// 	}
-// 	.progress-step {
-// 		width: 25px;
-// 		height: 25px;
-// 		font-size: 12px;
-// 		margin-top: -10px;
-// 	}
-// 	h2 {
-// 		font-size: 1.6rem;
-// 	}
-// 	.text-block {
-// 		padding: 1.2rem;
-// 	}
-// }
