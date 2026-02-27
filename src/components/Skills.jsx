@@ -52,7 +52,7 @@ useGSAP(() => {
         trigger: skillsRef.current,
         start: 'center center',
         end: desktop ? "+=" + (window.innerHeight * 2) : "+=100%" + window.innerHeight * 2,
-        scrub: 0.5,
+        scrub: 1,
         //markers: true,
         pin: "#skillswrapper",
         anticipatePin: true,

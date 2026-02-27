@@ -81,10 +81,10 @@ export default function Contact() {
       ------------------------- */
       if (mobile) {
          tl.fromTo(happyKittyRef.current, { x: "10%", y: "50%", opacity:0, scale: 0.6}, {x: "10%", y: "50%", opacity: 1, scale: 0.6}, 0);
-         tl.fromTo(bannerRef.current, {x: "0", y: "120%", rotation: '-50', opacity: 0}, {x: "0", y: "160%", rotation: '8', opacity: 1}, .5);
-        tl.fromTo(sissorsRef.current,{ opacity:0, scale: 0.2, x:"0%"}, { x: "0%", y: '480%', rotate: 360, opacity: 1,}, 1);
-        tl.fromTo(pencilRef.current,{ x: "140%", opacity:0, scale: 0.25, rotate:220 }, { x:"140%", rotate: 350, opacity: 1, y: '1400%'}, 1);
-        tl.fromTo(penRef.current,{ y: '-100%', opacity:0, scale: 0.25, rotate:20}, { x: "160%", y: '775%', rotate: 350, opacity: 1 }, 1.2);
+         tl.fromTo(bannerRef.current, {x: "0", y: "120%", opacity: 0}, {x: "0", y: "160%", rotation: '8', opacity: 1}, .5);
+        tl.fromTo(sissorsRef.current,{ opacity:0, scale: 0.2, x:"0%"}, { x: "0%", y: '480%', scale: 0.2, rotate: 360, opacity: 1,}, 1);
+        tl.fromTo(pencilRef.current,{ x: "100%", opacity:0, scale: 0.25, rotate:220 }, { x:"100%", rotate: 350, opacity: 1, y: '1400%'}, 1);
+        tl.fromTo(penRef.current,{ y: '100%', opacity:0, scale: 0.25, rotate:20}, { x: "160%", y: '775%', rotate: 350, opacity: 1 }, 1.2);
        
       }
     }
