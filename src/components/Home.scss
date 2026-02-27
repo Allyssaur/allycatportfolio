@@ -777,6 +777,9 @@ button {
 .softwareskills, .timelinesamp{
   position: relative;
   opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   //width: 85%;
 }
 
