@@ -106,11 +106,13 @@ export default function Guide() {
         </div>
     <div className="book-container" ref={bookcontainRef}>
 
+        <div className="isworking">
+          <p>Please turn your device to landscape mode</p>
+      </div>
+
       <div className="book-base" ref={bookBaseRef}></div>
-      {/* <div className="isworking"><p>isworking</p></div> */}
 
       <div className="book">
-        {/* Pages */}
         {pageData.map((bookpage, index) => (
           <div className="bookpage" ref={addToPagesRef} key={index}>
             <div className={`side front ${bookpage.isCover ? "cover" : ""}`}>
@@ -124,8 +126,6 @@ export default function Guide() {
             )}
           </div>
         ))}
-
-        {/* Back Cover */}
         <div className="cover side back">Back Cover</div>
       </div>
     </div>
