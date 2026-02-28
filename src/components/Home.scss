@@ -1107,17 +1107,12 @@ grid-row-gap: 0px;
 //INVITE SCSS
 
 .invitescontainer {
-  height: 90vh;
-  width: 90vw;
+  height: 100dvh;
+  width: 100dvw;
   background-color: #482a4e0e;
   border-radius: 30px;
 }
 
-.element {
-  height: 100px;
-  width: 100px;
-  background-color: purple;
-}
 
 .paper {
   //min-width: 800px;
@@ -1125,6 +1120,106 @@ grid-row-gap: 0px;
   position: absolute;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+
+.main img {
+  width: auto;
+  height: 50dvh;
+}
+
+.invitecard img {
+  width: auto;
+  height: 50dvh;
+}
+
+.detailsinvite img {
+  width: auto;
+  height: 50dvh;
+}
+
+.rsvp img {
+  width: auto;
+  height: 20dvh;
+}
+
+.envouter img {
+  width: auto;
+  height: 30dvh;
+}
+
+.envinner img {
+  width: auto;
+  height: 30dvh;
+}
+
+.invitecard {
+  top: 20%;
+  left: -32%;
+}
+
+.main {
+  left: 20%;
+  top: 30%;
+}
+
+.rsvp{
+  left: 65%;
+  top: 75%;
+}
+
+.detailsinvite {
+  left: 10%;
+  top: 0%;
+}
+
+.envinner {
+  left: 0%;
+  top: 70%;
+}
+
+.envouter {
+  left: 25%;
+  top: 70%;
+}
+
+
+
+@media only screen and (min-width: 1024px) {
+
+.invitescontainer{
+  height: 90vh;
+  width: 90vw;
+}
+
+.main img {
+  width:auto;
+  height: 70vh;
+}
+
+.detailsinvite img {
+  width: auto;
+  height: 68vh;
+}
+
+.rsvp img {
+  width: auto;
+  height: 45vh;
+}
+
+.envouter img {
+  width: auto;
+  height: 50vh;
+}
+
+.envinner img {
+  width: auto;
+  height: 50vh;
+}
+
+.invitecard img{
+  width:auto;
+  height: 75vh;
 }
 
 .invitecard {
@@ -1157,34 +1252,6 @@ grid-row-gap: 0px;
   top: 28%;
 }
 
-.main img {
-  width:auto;
-  height: 70vh;
-}
-
-.detailsinvite img {
-  width: auto;
-  height: 68vh;
-}
-
-.rsvp img {
-  width: auto;
-  height: 45vh;
-}
-
-.envouter img {
-  width: auto;
-  height: 50vh;
-}
-
-.envinner img {
-  width: auto;
-  height: 50vh;
-}
-
-.invitecard img{
-  width:auto;
-  height: 75vh;
 }
 
 // .aboutpgcontainer {
