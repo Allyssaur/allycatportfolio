@@ -20,7 +20,7 @@ export default function AboutMe() {
 
     const handleTLClick = () => {
     console.log('Button clicked, navigating now...'); 
-    navigate('/timeline'); 
+    navigate('/allyportfolio/timeline'); 
   };
 
   const containerRef = useRef(null);
@@ -40,7 +40,7 @@ export default function AboutMe() {
 
     {
     //   title: "MY EXP",
-      text: "Freelancing and working with the Walmart AMP over the past five yearrs have given me the space to truely explore my strengths and better understand my weaknesses.  The experience has led to tremendous growth, while also reminding me that there is always more to learn, improve, and refine.",
+      text: "Freelancing and working with the Walmart AMP over the past five years have given me the space to truely explore my strengths and better understand my weaknesses.  The experience has led to tremendous growth, while also reminding me that there is always more to learn, improve, and refine.",
       img: "",
     button: "FULL TIMELINE"
     },
