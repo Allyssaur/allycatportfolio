@@ -15,13 +15,16 @@ const ampInfo = { id: 1, type:"work", where: "WALMART AMP", jobtitle: "Artist Se
         ps: "ps",
         ai: "ai",
         ind: "ind",
+        lr: "lr",
         blend: "blend",
         excel: "excel",
         node: "node",
         javs: "javs",
         htm: "htm",
         cs: "cs",
-        gsap: "gsap"
+        gsap: "gsap",
+        react: "react",
+
     }
 
 
@@ -126,6 +129,9 @@ useGSAP(() => {
                                 <div className="ware">
                                     <div className={`${ware.ind} imgcont`}/>
                                 </div>
+                                <div className="ware">
+                            <div className={`${ware.lr} imgcont`}/>
+                        </div>
                             </div>
                         </div>
 
@@ -150,6 +156,9 @@ useGSAP(() => {
                                 <div className="ware">
                                     <div className={`${ware.gsap} imgcont`}/>
                                 </div>
+                                 <div className="ware">
+                            <div className={`${ware.react} imgcont`}/>
+                        </div>
                             </div>
                         </div>
 
@@ -166,7 +175,7 @@ useGSAP(() => {
                             </div>
                         <div className="ware">
                             <div className={`${ware.node} imgcont`}/>
-                        </div>
+                        </div>                        
                     </div>
                 </div>
             </div>  
